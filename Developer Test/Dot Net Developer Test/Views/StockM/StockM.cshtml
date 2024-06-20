@@ -1,0 +1,99 @@
+﻿@model Dot_Net_Developer_Test.Models.StockM;
+@{
+    ViewData["Title"] = "StockM";
+}
+
+<div class="col">
+    <html lang="en">
+    <head>
+        <title>ViewData["Title"]</title>
+        <style>
+            body {
+                background-image: url("/images/I.jpg");
+                background-size: cover;
+                background-position: center
+            }
+        </style>
+    </head>
+    <body>
+
+    </body>
+</html>
+    <div class="row">
+        <h2>Add New Stock Data</h2>
+    </div>
+    <div class="d-flex justify-content-end" style="color:aqua ">
+    <a asp-action="List" asp-controller="StockM" class="btn btn-outline-primary btn-sm" style="color:white;background-color:blueviolet"><b>Go To Stock List</b></a>
+    </div>
+    <form asp-action="StockM" asp-controller="StockM">
+        <div class="row mb-2">
+            <label asp-for="Date" class="col-form-label col-1 m"></label>
+            <div class="col-8">
+                <input asp-for="Date" type="date" class="form-control form-control-sm" placeholder="yyyy/mm/day" />
+            </div>
+            <div class="col-2">
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <label asp-for="Trade_code" class="col-form-label col-1 m"></label>
+            <div class="col-8">
+                <input asp-for="Trade_code" type="text" class="form-control form-control-sm" placeholder="Trade Code" />
+            </div>
+            <div class="col-2">
+                <span asp-validation-for="Trade_code" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <label asp-for="High" class="col-form-label col-1 m"></label>
+            <div class="col-8">
+                <input asp-for="High" type="text" class="form-control form-control-sm" placeholder="High" />
+            </div>
+            <div class="col-2">
+                <span asp-validation-for="High" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <label asp-for="Low" class="col-form-label col-1 m"></label>
+            <div class="col-8">
+                <input asp-for="Low" type="text" class="form-control form-control-sm" placeholder="Low" />
+            </div>
+            <div class="col-2">
+                <span asp-validation-for="Low" class="text-danger"></span>
+            </div>
+        </div> 
+        <div class="row mb-2">
+            <label asp-for="Open" class="col-form-label col-1 m"></label>
+            <div class="col-8">
+                <input asp-for="Open" type="text" class="form-control form-control-sm" placeholder="Open" />
+            </div>
+            <div class="col-2">
+                <span asp-validation-for="Open" class="text-danger"></span>
+            </div>
+        </div>  
+        <div class="row mb-2">
+            <label asp-for="Close" class="col-form-label col-1 m"> </label>
+            <div class="col-8">
+                <input asp-for="Close" type="text" class="form-control form-control-sm" placeholder="Close" />
+            </div>
+            <div class="col-2">
+                <span asp-validation-for="Close" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <label asp-for="Valume" class="col-form-label col-1 m"></label>
+            <div class="col-8">
+                <input asp-for="Valume" type="text" class="form-control form-control-sm" placeholder="Valume" />
+            </div>
+            <div class="col-2">
+                <span asp-validation-for="Valume" class="text-danger"></span>
+            </div>
+        </div>
+    <div class="row mb-2" style="color:white">
+        <div class="col-10 mt-2 " >
+            <button type="submit" style="color:white;background-color:blueviolet" class="btn btn-outline-primary btn-sm"><b>Submit</b></button>
+            </div>
+        </div>
+    </form>
+</div>
+

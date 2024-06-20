@@ -1,0 +1,99 @@
+﻿@model Dot_Net_Developer_Test.Models.StockM
+@{
+    ViewData["Title"] = "Edit";
+}<div>
+    @if (Model is null)
+    {
+        <p>No Stock Was Found With This Id</p>
+    }
+    else
+    {
+        <div class="col mt-2">
+            <div class="row">
+                <form method="post">
+                    <div class="row mb-2">
+                        <label asp-for="Id" class="col-form-label col-1 m"> Id:</label>
+                        <div class="col-8">
+                            <input asp-for="Id" type="number" class="form-control form-control-sm" readonly />
+                        </div>
+                        <div class="col-2">
+                            <span asp-validation-for="Id" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="Date" class="col-form-label col-1 m"> Date:</label>
+                        <div class="col-8">
+                            <input asp-for="Date" type="text" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-2">
+                            <span asp-validation-for="Date" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="Trade_code" class="col-form-label col-1 m"> Trade Code:</label>
+                        <div class="col-8">
+                            <input asp-for="Trade_code" type="text" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-2">
+                            <span asp-validation-for="Trade_code" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="High" class="col-form-label col-1 m"> High:</label>
+                        <div class="col-8">
+                            <input asp-for="High" type="text" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-2">
+                            <span asp-validation-for="High" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="Low" class="col-form-label col-1 m"> Low:</label>
+                        <div class="col-8">
+                            <input asp-for="Low" type="text" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-2">
+                            <span asp-validation-for="Low" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="Open" class="col-form-label col-1 m"> Open:</label>
+                        <div class="col-8">
+                            <input asp-for="Open" type="text" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-2">
+                            <span asp-validation-for="Open" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="Close" class="col-form-label col-1 m"> Close:</label>
+                        <div class="col-8">
+                            <input asp-for="Close" type="text" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-2">
+                            <span asp-validation-for="Close" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label asp-for="Valume" class="col-form-label col-1 m"> Valume:</label>
+                        <div class="col-8">
+                            <input asp-for="Valume" type="text" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-2">
+                            <span asp-validation-for="Valume" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-6 mt-2 " onclick="return confirm('Are You Sure!! You Want To Edit This??')">
+                            <button type="submit" class="btn btn-outline-primary btn-sm"><i class=""></i>Update</button>
+                        </div>
+                        <div class="d-flex justify-content-end col-6 mt-3">
+                            <a asp-action="List" asp-controller="StockM" class="btn btn-outline-primary"><i class="fa fa-arrow-circle-left"></i>Go To List</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+</div>
+

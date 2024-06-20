@@ -1,0 +1,86 @@
+﻿@model IEnumerable<Dot_Net_Developer_Test.Models.StockM>
+@{
+    ViewData["Title"] = "List";
+}
+
+<h2>Stock Detail's</h2>
+<html lang="en">
+<head>
+    <title>ViewData["Title"]</title>
+    <style>
+        body {
+            background-image: url("/images/Fundamental-Analysis-of-Stocks.jpg");
+            background-size: cover;
+            background-position: center
+        }
+    </style>
+</head>
+<body>
+
+</body>
+<div class="">
+    <div class="row">
+        <div class="col-6 mt-3">
+            <a asp-action="StockM" asp-controller="StockM" class="btn btn-outline-primary" style="color:white;background-color:blueviolet">Add New Stock</a>
+        </div>
+        <div class="d-flex justify-content-end col-6">
+            <form asp-action="Search" asp-controller="StockM" method="post" class="mt-3">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search..." name="searchtext" />
+                    <div class="input-group-sm m-1">
+                        <button class="btn btn-success"><i class="fa fa-search "></i>Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped table-sm mt-2">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(Model => Model.Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model.Trade_code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model.High)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model.Low)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model.Open)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model.Close)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model.Valume)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var StockM in Model)
+            {
+                <tr>
+                    <td>@StockM.Date</td>
+                    <td>@StockM.Trade_code</td>
+                    <td>@StockM.High</td>
+                    <td>@StockM.Low</td>
+                    <td>@StockM.Open</td>
+                    <td>@StockM.Close</td>
+                    <td>@StockM.Valume</td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="Edit" asp-controller="StockM" asp-route-id="@StockM.Id"><i class="fa fa-edit"></i>Edit</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" asp-action="Delete" asp-controller="StockM" asp-route-id="@StockM.Id" onclick="return confirm('Are You Sure!! You Want To Delete This??')"><i class="fa fa-trash"></i>Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Dot_Net_Developer_Test
+build_property.RootNamespace = Dot_Net_Developer_Test
+build_property.ProjectDir = C:\Users\Md. Rayhan Kabir\OneDrive\Desktop\Test\Developer Test\Dot Net Developer Test\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Md. Rayhan Kabir\OneDrive\Desktop\Test\Developer Test\Dot Net Developer Test
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/StockM/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tNXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/StockM/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tNXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/StockM/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tNXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/StockM/StockM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tNXFN0b2NrTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/Stock_Market/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tfTWFya2V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Md. Rayhan Kabir/OneDrive/Desktop/Test/Developer Test/Dot Net Developer Test/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k9bizmbtyo

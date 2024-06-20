@@ -1,0 +1,33 @@
+﻿@model Dot_Net_Developer_Test.Models.stock
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Stok Market Data</h1>
+<table class="table table-bordered table-striped table-sm">
+    <thead>
+        <tr>
+            <th>date</th>
+            <th>trade_code</th>
+            <th>high</th>
+            <th>low</th>
+            <th>open</th>
+            <th>close</th>
+            <th>volume</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Stock)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.date)</td>
+                <td>@Html.DisplayFor(modelItem => item.trade_code)</td>
+                <td>@Html.DisplayFor(modelItem => item.high)</td>
+                <td>@Html.DisplayFor(modelItem => item.low)</td>
+                <td>@Html.DisplayFor(modelItem => item.open)</td>
+                <td>@Html.DisplayFor(modelItem => item.close)</td>
+                <td>@Html.DisplayFor(modelItem => item.volume)</td>
+            </tr>
+        }
+    </tbody>
+</table>
